@@ -35,11 +35,11 @@ El libro usa las últimas versiones de cada lenguaje al momento de escribirlo:
 (Los códigos de ejemplo fueron probados para esas versiones; de todas formas, para versiones posteriores no debería haber problemas en ejecutar cada ejemplo, ya que no se utilizan caracteristicias muy especificas, sino más bien genericas. Pero, en caso de ocurrir algún error, por favor ir a contacto o cree una issue.)
 
 
-Los códigos disponibles son los que aparecen en la **parte III** del libro. Agrupados por nombre de _algoritmo_ o _función_ presentada, para Racket (.rkt) y Python (.py). (Excepto para el capítulo 10 donde se presenta Haskell, leer más abajo.)
+Los códigos disponibles son los que aparecen en la **parte III** del libro. Agrupados por nombre de _algoritmo_ o _función_ presentada, para **Racket** (.rkt) y **Python** (.py). (Excepto para el capítulo 10 donde se presenta Haskell, leer más abajo.)
 
 Por ejemplo, para el algoritmo karp-rabin que se presenta en el capítulo 14 existen dos ficheros: [karp-rabin.rkt](material/capítulo_14/ejemplos/karp-rabin.rkt) y [karp-rabin.py](material/capítulo_14/ejemplos/karp-rabin.py) que son los dos códigos presentados en el libro, para cada lenguaje de programación.
 
-Por otro lado, los códigos de Haskell que solo aparecen en el capítulo 10, tienen la extensión .hs y están [aquí](material/capítulo_10/ejemplos).
+Por otro lado, los códigos de **Haskell** que solo aparecen en el capítulo 10, tienen la extensión .hs y están [aquí](material/capítulo_10/ejemplos).
 
 **Nota:** También puede usar IDE online para cada uno: https://ideone.com/, en caso de tener algún problema en la instalación de algún lenguaje.
 
@@ -59,4 +59,4 @@ Pronto.
 
 ### Contacto
 
-En caso de cualquier inconveniente o sugerencia, por favor escribir un e-mail a: camilochs@gmail.com
+En caso de cualquier inconveniente o sugerencia, por favor escribir a: camilochs@gmail.com

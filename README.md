@@ -3,6 +3,8 @@
 
 ## Sipnosis
 
+<img src="libro-01.jpg" width="450" height="700" />
+
 La **programación funcional** ofrece diversas ventajas a la hora de construir software: reducción de errores, manejo eficiente de datos en entornos concurrentes y paralelos, y un gran respaldo teórico. No obstante, muchos programadores fracasan en su intento de adentrarse en ella por ir directamente a aprenderla usando un lenguaje de programación (tecnología), con lo que omiten la teoría y el contexto histórico que le dio origen.
 
 Este libro incluye una introducción sobre qué son la computación y la programación en pos de delimitar su campo de acción. En segundo lugar, presenta el **cálculo lambda**, el modelo de computación que influenció a la programación funcional en los años cuando ni siquiera existían los lenguajes de programación, ni mucho menos los ordenadores digitales. Para concluir, el libro emplea los lenguajes de programación **Racket** y **Python** para enseñar las diversas características de la programación funcional, sus fortalezas y debilidades, y cómo ellas pueden combinarse con otros paradigmas. Con todo ello, aprenderá:

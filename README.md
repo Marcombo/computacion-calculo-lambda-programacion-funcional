@@ -43,9 +43,19 @@ Por otro lado, los códigos de Haskell que solo aparecen en el capítulo 10, tie
 
 **Nota:** También puede usar IDE online para cada uno: https://ideone.com/, en caso de tener algún problema en la instalación de algún lenguaje.
 
+
+
 ### Figuras
 
 Dentro de cada capítulo se encuentra la carpeta figuras. Donde todas ellas siguen la misma enumeración del libro.
+
+### Intérprete de Cálculo lambda 
+
+Pronto.
+
+### Ejercicios resueltos
+
+Pronto.
 
 ### Contacto
 

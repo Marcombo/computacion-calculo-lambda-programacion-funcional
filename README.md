@@ -1,9 +1,10 @@
 # Computación y programación funcional
 #### Introducción al cálculo lambda y programación funcional usando Racket y Python. 2021.
 
+<img src="libro-01.jpg" width="450" height="700" />
+
 ## Sipnosis
 
-<img src="libro-01.jpg" width="450" height="700" />
 
 La **programación funcional** ofrece diversas ventajas a la hora de construir software: reducción de errores, manejo eficiente de datos en entornos concurrentes y paralelos, y un gran respaldo teórico. No obstante, muchos programadores fracasan en su intento de adentrarse en ella por ir directamente a aprenderla usando un lenguaje de programación (tecnología), con lo que omiten la teoría y el contexto histórico que le dio origen.
 

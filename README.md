@@ -1,5 +1,5 @@
 # Computación y programación funcional
-#### Introducción al cálculo lambda y programación funcional usando Racket y Python
+#### Introducción al cálculo lambda y programación funcional usando Racket y Python. 2021.
 
 ## Sipnosis
 
@@ -15,7 +15,7 @@ Este libro incluye una introducción sobre qué son la computación y la program
 
 Si tiene un mínimo conocimiento en programación y desea adentrarse en **otra forma de pensar y construir sistemas computacionales**, donde viven conceptos como reducción, funciones puras, transparencia referencial, búsqueda de patrones, entre otros, no espere más para hacerse con este libro. Gracias a él no descubrirá tan solo la programación funcional, sino que ampliará su perspectiva con respecto a la computación desde una óptica sistémica y libre de dogmas.
 
-[Ver índice](https://docdro.id/u5lnpgj)
+**[Ver índice](https://docdro.id/u5lnpgj)**
 
 
 ## Sobre este repositorio
@@ -34,7 +34,6 @@ El libro usa las últimas versiones de cada lenguaje al momento de escribirlo:
 
 (Los códigos de ejemplo fueron probados para esas versiones; de todas formas, para versiones posteriores no debería haber problemas en ejecutar cada ejemplo, ya que no se utilizan caracteristicias muy especificas, sino más bien genericas. Pero, en caso de ocurrir algún error, por favor ir a contacto o cree una issue.)
 
-También puede usar IDE online para cada uno: https://ideone.com/, en caso de tener algún problema en la instalación de algún lenguaje.
 
 Los códigos disponibles son los que aparecen en la **parte III** del libro. Agrupados por nombre de _algoritmo_ o _función_ presentada, para Racket (.rkt) y Python (.py). (Excepto para el capítulo 10 donde se presenta Haskell, leer más abajo.)
 
@@ -42,7 +41,7 @@ Por ejemplo, para el algoritmo karp-rabin que se presenta en el capítulo 14 exi
 
 Por otro lado, los códigos de Haskell que solo aparecen en el capítulo 10, tienen la extensión .hs y están [aquí](material/capítulo_10/ejemplos).
 
-
+**Nota:** También puede usar IDE online para cada uno: https://ideone.com/, en caso de tener algún problema en la instalación de algún lenguaje.
 
 ### Figuras
 

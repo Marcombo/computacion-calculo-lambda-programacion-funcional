@@ -52,13 +52,10 @@ Por otro lado, los códigos de **Haskell** que solo aparecen en el capítulo 10,
 
 Dentro de cada capítulo se encuentra la carpeta figuras. Donde todas ellas siguen la misma enumeración del libro.
 
-### Intérprete de Cálculo lambda 
+### Intérpretes para el cálculo lambda 
 
-Pronto.
-
-### Ejercicios resueltos
-
-Pronto.
+* [λ Calculus Intérpreter - versión beta 0.1](https://camilochs.github.io/lambdacalculus/) (Intérprete creado para este libro).
+* [λ Calculus Interpreter](https://jacksongl.github.io/files/demo/lambda/)
 
 ### Contacto
 

@@ -3,6 +3,10 @@
 
 <img src="libro-01.jpg" width="450" height="600" />
 
+## Actualización
+
+- 13 de febrero 2021. Se han añadido las respuestas a los ejercicios del capítulo 5. Véase [aquí](material/ejercicios_resueltos/capítulo_5/respuestas.md).
+
 ## Sipnosis
 
 

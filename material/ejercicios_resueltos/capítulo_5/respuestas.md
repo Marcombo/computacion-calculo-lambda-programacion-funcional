@@ -1,6 +1,7 @@
 ### Notas previas:
 - Hemos cambiado el símbolo «λ» por «lambda» para que el intérprete lo pueda ejecutar.
 - Todos los ejercicios pueden ser verificados en: https://jacksongl.github.io/files/demo/lambda/
+     - Algo importante de este intérprete es que renombra las variables, añadiendo un dígito al final, para evitar ambigüedades. 
 
 ### 5-1
 
@@ -53,7 +54,7 @@ Respuesta:
 
 ```
 (((λx.x) (λy.y)) ((λx0.x0) 2))
-((λy.y) ((λx0.x0) 2))
+((λy.y) ((λx0.x0) 2)) 
 ((λx0.x0) 2)
 2
 ```

@@ -1,6 +1,6 @@
 ### Nota previa:
-Hemos cambiado el símbolo «λ» por «lambda» para que el intérprete lo pueda ejecutar.
-Todos los ejercicios pueden ser verificados en: https://jacksongl.github.io/files/demo/lambda/
+- Hemos cambiado el símbolo «λ» por «lambda» para que el intérprete lo pueda ejecutar.
+- Todos los ejercicios pueden ser verificados en: https://jacksongl.github.io/files/demo/lambda/
 
 ### 5-1
 

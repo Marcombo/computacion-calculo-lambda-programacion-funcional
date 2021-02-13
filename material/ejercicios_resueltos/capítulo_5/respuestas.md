@@ -1,4 +1,4 @@
-### Nota previa:
+### Notas previas:
 - Hemos cambiado el símbolo «λ» por «lambda» para que el intérprete lo pueda ejecutar.
 - Todos los ejercicios pueden ser verificados en: https://jacksongl.github.io/files/demo/lambda/
 

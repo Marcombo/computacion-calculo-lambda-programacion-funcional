@@ -1,5 +1,5 @@
 # Computación y programación funcional
-#### Introducción al cálculo lambda y programación funcional usando Racket y Python. 2021.
+#### Introducción al cálculo lambda y programación funcional usando Racket y Python. Marcombo, 2021.
 
 
 ## Actualización

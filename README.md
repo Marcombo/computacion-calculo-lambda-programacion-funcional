@@ -4,6 +4,7 @@
 
 ## Actualización
 
+- 31 de mayo 2021. Se añade una sección de [erratas](erratas.md).
 - 18 de febrero 2021. Añadí una sección con lecturas recomendadas. Véase [aquí](recomendaciones.md).
 - 13 de febrero 2021. Se han añadido las respuestas a los ejercicios del capítulo 5. Véase [aquí](material/ejercicios_resueltos/capítulo_5/respuestas.md).
 

@@ -62,7 +62,6 @@ Dentro de cada capítulo se encuentra la carpeta figuras. Donde todas ellas sigu
 
 ### Intérpretes para el cálculo lambda 
 
-* [λ Calculus Intérpreter - versión beta 0.1](https://camilochs.github.io/lambdacalculus/) (Intérprete creado para este libro).
 * [λ Calculus Interpreter](https://jacksongl.github.io/files/demo/lambda/)
 
 ### Contacto

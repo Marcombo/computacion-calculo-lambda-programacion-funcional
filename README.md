@@ -3,7 +3,7 @@
 
 
 ## Actualización
-
+- 8 de Agosto 2021. Esta entrada complementa el libro: https://camilochaconsartori.wordpress.com/2021/08/08/el-renacer-de-un-viejo-conocido-la-programacion-funcional/
 - 28 de Julio 2021. Se corrige un error en el código del capítulo 12: [funciones-puras-copy-list-recursiva.py](material/cap%C3%ADtulo_12/ejemplos/funciones-puras-copy-list-recursiva.py). Pág. 187.
 - 31 de mayo 2021. Se añade una sección de [fe de erratas](erratas.md).
 - 18 de febrero 2021. Añadí una sección con lecturas recomendadas. Véase [aquí](recomendaciones.md).

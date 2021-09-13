@@ -39,9 +39,9 @@ En este repositorio se encuentra los códigos de ejemplos presentados en el libr
 
 El libro usa las últimas versiones de cada lenguaje al momento de escribirlo:
 
-- Racket (versión 7.7, [Enlace para descargar](https://download.racket-lang.org/)) 
-- Python (versión 3.8.2, [Enlace para descargar](https://www.python.org/downloads/))
-- Haskell (versión 8.6.5, [Enlace para descargar](https://www.haskell.org/platform/))
+- Racket (versión 7.7, [descargar](https://download.racket-lang.org/)) 
+- Python (versión 3.8.2, [descargar](https://www.python.org/downloads/))
+- Haskell (versión 8.6.5, [descargar](https://www.haskell.org/platform/))
 
 (Los códigos de ejemplo fueron probados para esas versiones; de todas formas, para versiones posteriores no debería haber problemas en ejecutar cada ejemplo, ya que no se utilizan caracteristicias muy especificas, sino más bien genericas. Pero, en caso de ocurrir algún error, por favor ir a contacto o cree una issue.)
 

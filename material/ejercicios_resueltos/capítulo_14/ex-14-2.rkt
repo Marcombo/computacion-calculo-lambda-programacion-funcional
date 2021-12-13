@@ -43,6 +43,9 @@
 (define (right-child-index i)
   (+ (* 2 i) 2))
 
+(define (right-child-node hp i)
+  (node-value hp (right-child-index i)))
+
 (define (swap hp src-i dest-i)
   (let ([src-val (node-value hp src-i)]
         [dest-val (node-value hp dest-i)])
@@ -86,11 +89,47 @@
         (vector-copy! new-vec 1 hp 1 last-indx)
         new-vec)))
 
-(kill-head-put-tail '#(1 2 5 6 3 9))
-(kill-head-put-tail '#(1 2))
-(kill-head-put-tail '#(1))
+(define (sink hp i)
+  (define (sink-swapping f)
+    (let ([dest-idx (f i)])
+      (sink (swap hp i dest-idx) dest-idx)))
+  (let ([actual (node-value hp i)]
+        [left (left-child-node hp i)]
+        [right (right-child-node hp i)])
+    (cond [(and (nothing? left) (nothing? right)) hp]
+          [(and (just? left) (nothing? right) (> (from-just actual) (from-just left)))
+           (sink-swapping left-child-index)]
+          [(and (nothing? left) (just? right) (> (from-just actual) (from-just right)))
+           (sink-swapping right-child-index)]
+          [(and (just? left) (just? right))
+           (let ([actual-val (from-just actual)]
+                 [left-val (from-just left)]
+                 [right-val (from-just right)])
+             (if (or (> actual-val left-val) (> actual-val right-val))
+                 (if (< left-val right-val)
+                     (sink-swapping left-child-index)
+                     (sink-swapping right-child-index))
+                 hp))]
+          [else hp])))
 
 (define (heap-remove hp)
-  (let ([firts (vector-ref hp 0)]
-        [swapped-vec (kill-head-put-tail hp)])
-    (sink swapped-vec 0)))
+  (let* ([removed (vector-ref hp 0)]
+         [swapped-vec (kill-head-put-tail hp)]
+         [new-heap (sink swapped-vec 0)])
+    (cons removed new-heap)))
+
+(heap-remove '#(1 3 2 5 9 6))
+;; '(1 . #(2 3 6 5 9))
+
+(define (heap-sort . lst)
+  (define (iter hp lst-sort)
+    (if (vector-empty? hp)
+        lst-sort
+        (let* ([state (heap-remove hp)]
+               [actual (car state)]
+               [new-hp (cdr state)])
+          (iter new-hp (append lst-sort `(,actual))))))
+  (iter (apply make-heap lst) '()))
+
+(heap-sort 8 1 3 4 5 7)
+;; '(1 3 4 5 7 8)

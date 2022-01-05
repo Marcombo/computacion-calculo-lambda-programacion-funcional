@@ -1,15 +1,15 @@
 #lang racket
 (struct node (value left right) #:transparent)
-	 
+
 (define sequence (string->list "AEEEADDECA"))
-	 
+
 (define freq (make-immutable-hash))
-	 
+
 (define (increment-freq freq key)
   (if (hash-has-key? freq key)
       (+ 1 (hash-ref freq key))
       1))
-	      
+
 (define (calculate-freq sequence freq)
   (if (null? sequence) freq
       (calculate-freq
@@ -19,10 +19,10 @@
         (car sequence)
         (increment-freq freq (car sequence))
         ))))
-	 
+
 (define (create-tree sum-value left right)
   (node sum-value left right))
-	 
+
 (define (create-huffman-tree nodes tree)
   (if (null? nodes) tree
       (cond [(<= (node-value tree) (cdr (car nodes)))
@@ -32,7 +32,7 @@
                (+ (node-value tree) (cdr (car nodes)))
                tree
                (caar nodes)))]
-            [else 
+            [else
              (create-huffman-tree
               (cdr nodes)
               (create-tree
@@ -40,7 +40,7 @@
                (caar nodes)
                tree))]
             )))
-	                               
+
 (define (huffman nodes)
   (cond
     [(= (length nodes) 0)
@@ -61,12 +61,12 @@
        (caar nodes)
        null
        ))]))
-	 
+
 (define nodes-freq (calculate-freq sequence freq))
 (define nodes-key (hash-keys nodes-freq))
-(define huffman-tree (huffman (hash->list nodes-freq)))
+(define huffman-tree (huffman (sort (hash->list nodes-freq) #:key cdr <)))
 (displayln huffman-tree)
-; #(struct:node 10 E #(struct:node 6 #(struct:node 3 C D) A)) 
+; #(struct:node 10 E #(struct:node 6 #(struct:node 3 C D) A))
 
 (require racket/hash)
 (define (decoding tree binary)
